@@ -16,8 +16,7 @@ echo "📁 Requesting storage permissions..."
 termux-setup-storage
 
 echo "🦊 Installing MiTool..."
-curl -sS https://raw.githubusercontent.com/offici5l/MiTool/master/install.sh | bash
-
+curl -s https://raw.githubusercontent.com/offici5l/termux-adb-fastboot/main/install | bash
 echo "==============================================="
 echo "        ✅ SETUP COMPLETED SUCCESSFULLY!       "
 echo "==============================================="
